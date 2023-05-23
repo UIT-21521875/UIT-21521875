@@ -1,0 +1,66 @@
+2023-05-23T10:04:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php:88
+Stack trace:
+#0 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\sources\local.php(860): Elementor\Core\Files\Uploads_Manager->extract_and_validate_zip('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(478): Elementor\TemplateLibrary\Source_Local->import_template('woostify.2.2.3 ...', 'C:\\xampp\\htdocs...')
+#2 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#3 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#4 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#5 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecm\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php on line 88
+
+2023-05-23T10:05:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php:88
+Stack trace:
+#0 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\sources\local.php(860): Elementor\Core\Files\Uploads_Manager->extract_and_validate_zip('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(478): Elementor\TemplateLibrary\Source_Local->import_template('woostify.2.2.3 ...', 'C:\\xampp\\htdocs...')
+#2 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#3 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#4 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#5 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecm\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php on line 88
+
+2023-05-23T10:05:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php:88
+Stack trace:
+#0 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\sources\local.php(860): Elementor\Core\Files\Uploads_Manager->extract_and_validate_zip('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(478): Elementor\TemplateLibrary\Source_Local->import_template('woostify.2.2.3 ...', 'C:\\xampp\\htdocs...')
+#2 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#3 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#4 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#5 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecm\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php on line 88
+
+2023-05-23T10:05:41+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php:88
+Stack trace:
+#0 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\sources\local.php(860): Elementor\Core\Files\Uploads_Manager->extract_and_validate_zip('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(478): Elementor\TemplateLibrary\Source_Local->import_template('woostify.2.2.3 ...', 'C:\\xampp\\htdocs...')
+#2 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#3 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(596): call_user_func(Array, Array)
+#4 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\includes\template-library\manager.php(629): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#5 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(308): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\xampp\htdocs\ecm\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecm\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecm\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\xampp\htdocs\ecm\wp-content\plugins\elementor\core\files\uploads-manager.php on line 88
+
+2023-05-23T11:56:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\ecm\wp-content\plugins\simply-static\src\tasks\class-ss-fetch-urls-task.php on line 156
+
